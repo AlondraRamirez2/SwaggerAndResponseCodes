@@ -228,13 +228,13 @@ revisar el documento OpenAPI generado.
 
 ## Lista para comprobar que terminaste
 
-- [ ] Springdoc usa una versión compatible con Spring Boot 3.3.x.
-- [ ] Swagger UI y `/v3/api-docs` cargan con la aplicación en ejecución.
-- [ ] Los endpoints de productos tienen resúmenes útiles y códigos de
+- [x] Springdoc usa una versión compatible con Spring Boot 3.3.x.
+- [x] Swagger UI y `/v3/api-docs` cargan con la aplicación en ejecución.
+- [x] Los endpoints de productos tienen resúmenes útiles y códigos de
   respuesta documentados.
-- [ ] La creación devuelve `201` y un encabezado `Location`.
-- [ ] Las búsquedas y actualizaciones exitosas devuelven `200`.
-- [ ] Los recursos inexistentes devuelven `404`, no `200` con un valor vacío
+- [x] La creación devuelve `201` y un encabezado `Location`.
+- [x] Las búsquedas y actualizaciones exitosas devuelven `200`.
+- [x] Los recursos inexistentes devuelven `404`, no `200` con un valor vacío
   ni `null`.
-- [ ] Las eliminaciones exitosas devuelven `204` sin cuerpo.
-- [ ] Se conservan las rutas existentes y el formato JSON del proyecto.
+- [x] Las eliminaciones exitosas devuelven `204` sin cuerpo.
+- [x] Se conservan las rutas existentes y el formato JSON del proyecto.
